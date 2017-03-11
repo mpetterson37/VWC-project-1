@@ -1,0 +1,87 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+
+	 This is the meyer reset tool which lets me zero out all browser specfications so that I can then define what I want using my CSS code. Handy!
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Typography: this sets some margin around the text, I need to mess with this more
+  ========================================
+*/
+html {
+  color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+	line-height:27px;
+	background-color: #0A0003
+}
+
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 24px;
+}
+header {
+	text-align: center;
+	padding: 100px 10px 10px 10px;
+	background-color: brown;
+}
+footer {
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	background-color: brown;
+}
+/*
+I am not very good at positioning pictures at all... I really need to work on this.
+*/
+.left1 {
+	padding: 30px 30px 30px 30px;
+  float: left;
+}
